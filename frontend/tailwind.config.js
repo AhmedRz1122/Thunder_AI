@@ -9,18 +9,3 @@ module.exports = {
   },
   plugins: [], // Add plugins here if needed
 };
-
-// module.exports = {
-//   theme: {
-//     extend: {
-//       colors: {
-//         gradientStart: "#000428",
-//         gradientEnd: "#004e92",
-//       },
-//       backgroundImage: {
-//         'custom-gradient': 'linear-gradient(to right, #000428, #004e92)',
-//       },
-//     },
-//   },
-//   plugins: [],
-// };
