@@ -25,7 +25,7 @@ const Home = () => {
                         <NavLink to="/Imagegen">
                             <button className='border-2 border-white w-[250px] bg-blue-500 hover:bg-blue-600 text-white py-2 rounded-2xl mr-3'>Explore Image Generation</button>
                         </NavLink>
-                        <NavLink to="/Food_Classification">
+                        <NavLink to="/Image_Classification">
                             <button className='border-2 border-white w-[250px] bg-blue-500 hover:bg-blue-600 text-white py-2 rounded-2xl mr-3'>Start Image Analysis</button>
                         </NavLink>
                     </div>

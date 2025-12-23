@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import { AppSidebar } from "../components/AppSidebar";
+import { AppSidebar } from "./AppSidebar";
 import Imag from "../assets/image4.png";
 import reactLogo from "../assets/react.svg";
+import "./Image_Classification.css";
 
-import "./Food_Classification.css";
-
-const FoodClassification = () => {
+const Image_Classification = () => {
   const [uploadedImage, setUploadedImage] = useState(null);
   const [classificationResult, setClassificationResult] = useState("");
   const [loading, setLoading] = useState(false);
@@ -65,9 +64,9 @@ const FoodClassification = () => {
 
   return (
     <div className="flex">
-      <div className="sticky top-0 left-0 h-screen w-1/4 z-10">
+      {/* <div className="sticky top-0 left-0 h-screen w-1/4 z-10">
         <AppSidebar />
-      </div>
+      </div> */}
 
       <div className="flex-grow flex ml-1/4"> 
         <div className="container_left w-full md:w-1/2 p-4">
@@ -109,4 +108,4 @@ const FoodClassification = () => {
   );
 };
 
-export default FoodClassification;
+export default Image_Classification;

@@ -44,9 +44,9 @@ const TextGeneration = () => {
   return (
     <div className="flex h-screen">
       {/* Sidebar */}
-      <div className="bg-gray-100 sidebar-container relative">
+      {/* <div className="bg-gray-100 sidebar-container relative">
         <AppSidebar />
-      </div>
+      </div> */}
 
       {/* Main Content */}
       <div className="w-full flex flex-col p-8">

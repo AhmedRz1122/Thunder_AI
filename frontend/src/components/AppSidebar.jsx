@@ -28,7 +28,7 @@ export function AppSidebar() {
   {
     if(title=="Explore Image Classification")
     {
-      return "/Food_Classification";
+      return "/Image_Classification";
     }
     else if(title=="Generate Image")
     {
